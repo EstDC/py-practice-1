@@ -74,7 +74,8 @@ print("Number of times the word 'Javier' appears in the story:", javier_count)
 '''
 Exercise 9:** Replace the word "Javier" with "Pepito" in the story.
 '''
-story2 = "" # write your code here
+javier= story.find("Javier")
+story2 = story.replace("Javier", "Pepito") # write your code here
 print("Story with 'Javier' replaced with 'Pepito':", story2)
 
 '''
