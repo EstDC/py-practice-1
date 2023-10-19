@@ -82,3 +82,12 @@ Exercise 10:** Reverse the order of the words in the story.
 '''
 story3 = story[::-1] # write your code here
 print("Story with words reversed:", story3)
+
+#para escribir en un archivo (w) para leer (r)
+
+def writeFile(story, file_name):
+    with open(file_name, "w") as f:
+       f.write(story)
+
+       writeFile(story2, "story-pepito.txt")
+       writeFile(story3, "story-reversed.txt")
