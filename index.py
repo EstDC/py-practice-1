@@ -81,5 +81,5 @@ print("Story with 'Javier' replaced with 'Pepito':", story2)
 '''
 Exercise 10:** Reverse the order of the words in the story.
 '''
-story3 = "" # write your code here
+story3 = story[::-1] # write your code here
 print("Story with words reversed:", story3)
