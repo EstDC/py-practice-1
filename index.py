@@ -30,7 +30,7 @@ print("Number of years left:", years_left)
 '''
 Exercise 3:** Calculate the number of DAYS until 2045.
 '''
-days_left = 0 # write your code here
+days_left = years_left * 365 # write your code here
 print("Number of days left:", days_left)
 
 # 3. Booleans
