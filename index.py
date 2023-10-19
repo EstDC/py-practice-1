@@ -68,7 +68,7 @@ print("Words in the 10th to 20th position:", words[10:21])
 '''
 Exercise 8:** Count the number of times the word "Javier" appears in the story.
 '''
-javier_count = 0 # write your code here
+javier_count = story.count("Javier") # write your code here
 print("Number of times the word 'Javier' appears in the story:", javier_count)
 
 '''
